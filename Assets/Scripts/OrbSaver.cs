@@ -5,19 +5,21 @@ using UnityEngine;
 
 public class OrbSaver : MonoBehaviour
 {
-    public int ID;
+    public int ID_Orb;
 
     private void Awake()
     {
-        if(PlayerPrefs.HasKey("Orb" + ID) && PlayerPrefs.GetInt("Orb" + ID) == 1)
+        if(PlayerPrefs.HasKey("Orb" + ID_Orb) && PlayerPrefs.GetInt("Orb" + ID_Orb) == 1)
         {
             LoadOrb();
+            Debug.Log("Orb Eliminated");
         }
     
     }
     private void OnTriggerEnter(Collider other)
     {
-        PlayerPrefs.SetInt("Orb" + ID, 1);
+        PlayerPrefs.SetInt("Orb" + ID_Orb, 1);
+        Debug.Log("Orb Saved");
     }
     public void LoadOrb() 
     {

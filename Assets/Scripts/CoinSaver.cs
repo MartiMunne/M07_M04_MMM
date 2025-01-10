@@ -12,12 +12,14 @@ public class CoinSaver : MonoBehaviour
         if(PlayerPrefs.HasKey("Coin" + ID) && PlayerPrefs.GetInt("Coin" + ID) == 1)
         {
             LoadCoin();
+            Debug.Log("Coin Eliminated");
         }
     
     }
     private void OnTriggerEnter(Collider other)
     {
         PlayerPrefs.SetInt("Coin" + ID, 1);
+        Debug.Log("CoinSaved");
     }
     public void LoadCoin() 
     {

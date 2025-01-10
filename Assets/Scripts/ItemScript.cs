@@ -12,11 +12,13 @@ public class ItemScript : MonoBehaviour, ICollectables
         if (PlayerPrefs.HasKey("Item" + ID) && PlayerPrefs.GetInt("Item" + ID) == 1)
         {
             LoadItem();
+            Debug.Log("Item Eliminated");
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         PlayerPrefs.SetInt("Item" + ID, 1);
+        Debug.Log("Item Saved");
     }
     public void Collect()
     {

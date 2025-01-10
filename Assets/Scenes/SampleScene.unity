@@ -1327,6 +1327,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrbChibiRobo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID_Orb
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6290886412566151877, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: ID
       value: 1
@@ -1517,6 +1525,14 @@ PrefabInstance:
     - target: {fileID: 1050650115421673897, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: m_Name
       value: OrbChibiRobo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID_Orb
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6290886412566151877, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: ID
@@ -3549,6 +3565,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrbChibiRobo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID_Orb
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6290886412566151877, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: ID
       value: 2
@@ -4285,6 +4309,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrbChibiRobo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID_Orb
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6290886412566151877, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: ID
       value: 5
@@ -4345,6 +4377,14 @@ PrefabInstance:
     - target: {fileID: 1050650115421673897, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: m_Name
       value: OrbChibiRobo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333493055894985815, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
+      propertyPath: ID_Orb
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6290886412566151877, guid: ebfb1d8ece0a94570aa927de9239ba84, type: 3}
       propertyPath: ID

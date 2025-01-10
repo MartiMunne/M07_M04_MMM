@@ -6,7 +6,7 @@ public class CoinScript : MonoBehaviour, ICollectables
 {
     public void Collect()
     {
-        GameManager.gameManager.CoinCollected(10);
+        GameManager.gameManager.CoinCollected(1);
         Destroy(gameObject);
     }
 }

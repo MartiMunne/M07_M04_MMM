@@ -23,7 +23,7 @@ public class StoreScript : MonoBehaviour
 
     public void BuyItem1()
     {
-        if(_coins >= 15)
+        if(_coins >= 5)
         {
             Destroy(objectItem1);
             GameManager.gameManager.CoinCollected(-Item1.price);
@@ -33,7 +33,7 @@ public class StoreScript : MonoBehaviour
 
     public void BuyItem2()
     {
-        if(_coins >= 30)
+        if(_coins >= 10)
         {
             Destroy(objectItem2);
             GameManager.gameManager.CoinCollected(-Item2.price);
@@ -48,7 +48,7 @@ public class StoreScript : MonoBehaviour
         {
            insuCoins.text = "SOLD OUT";
            insuCoins.color = Color.yellow;
-           buyButton.interactable = true; 
+           buyButton.interactable = false; 
         }
         else if(_coins <= item.price)
         {

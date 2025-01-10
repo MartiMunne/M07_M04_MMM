@@ -9,11 +9,13 @@ public class SellerScript : MonoBehaviour
    public CinemachineVirtualCamera VCamEnable;
    public GameObject UI;
    private PlayerMover _playerMover;
+   [SerializeField] Animator _animatorSeller;
    private bool _canBuy = true;
    private float time = 1f;
 
    private  void OnTriggerEnter(Collider other)
    {
+        _animatorSeller.SetBool("isSelling", true);
         VCamDisable.gameObject.SetActive(false);
         VCamEnable.gameObject.SetActive(true);
         Camera.main.GetComponent<CinemachineBrain>().enabled = true;
@@ -29,6 +31,7 @@ public class SellerScript : MonoBehaviour
    }
     public void ExitStore()
     {
+        _animatorSeller.SetBool("isSelling", false);
         _playerMover.canMove = true;
         VCamDisable.gameObject.SetActive(true);
         VCamEnable.gameObject.SetActive(false);

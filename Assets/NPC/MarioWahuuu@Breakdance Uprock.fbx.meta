@@ -1,39 +1,9 @@
 fileFormatVersion: 2
-guid: ea6d75beff9b64bc28982844088287c0
+guid: 9f6e1ba89904fa94a8bdba132264ffa6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_future_mario_extras_tx
-    second: {fileID: 2100000, guid: 4ecf42a5d8d5742efb167ba94bf45cae, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_mario_brothers_pupil_tx
-    second: {fileID: 2100000, guid: 70eff8123085d47b9aac2f372aad542b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_mario_clothes_tx
-    second: {fileID: 2100000, guid: 4246fe1511a1a492ea6f56485b0ab82c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_mario_hair_tx
-    second: {fileID: 2100000, guid: d99449137dbd548429a98c343107e479, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_mario_head_tx
-    second: {fileID: 2100000, guid: 154cc4bf08a4e4d84b991f4d500de4ea, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: csm0_0000_mario_mouth_tx
-    second: {fileID: 2100000, guid: b165f62a1d46248ba8c27b4fbf3cb5f7, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -61,7 +31,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Breakdance Uprock
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -107,8 +106,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - c9fc59b35573b4870afbd63d20fddc17
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3

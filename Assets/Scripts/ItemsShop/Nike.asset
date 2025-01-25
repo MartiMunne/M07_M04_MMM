@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d82d942a4ccf43eca55e75cfb1a5e12, type: 3}
   m_Name: Nike
   m_EditorClassIdentifier: 
-  price: 15
+  price: 5
